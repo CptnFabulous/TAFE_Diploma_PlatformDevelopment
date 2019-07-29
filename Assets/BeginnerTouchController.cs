@@ -21,5 +21,6 @@ public class BeginnerTouchController : MonoBehaviour
     public void OnTouchStay()
     {
         //transform.Translate(ti.)
+        print("Blah");
     }
 }
