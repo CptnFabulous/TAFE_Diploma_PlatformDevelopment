@@ -16,7 +16,7 @@ public class MobileCharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 movementDirection = new Vector3(movementInput.input.x * speed, movementInput.input.y * speed, 0);
+        Vector3 movementDirection = new Vector3(movementInput.Direction.x * speed, movementInput.Direction.y * speed, 0);
 
         transform.Translate(movementDirection * Time.deltaTime, Space.World);
     }
